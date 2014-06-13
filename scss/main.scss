@@ -1,0 +1,17 @@
+@import "compass/css3";
+
+@import "_variables";
+@import "_base";
+@import "_mixins";
+
+@import "components/header";
+@import "components/components";
+
+.body-width {
+	width: $body-width;
+	margin: auto;
+}
+
+.input {
+	@include box-shadow(#FF0000, #00FF00);
+}

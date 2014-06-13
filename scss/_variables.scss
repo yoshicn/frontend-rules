@@ -1,0 +1,73 @@
+/*
+* ------------------------------------
+* General settings
+* ------------------------------------
+*/
+
+/* Used to fix min-width of the content. Currently using to show data safely on tablet.*/
+$body-width: 100%;
+$body-text-color: #000000;
+
+/*
+* ------------------------------------
+* Header styles
+* ------------------------------------
+*/
+
+$headerColor1: #000000;
+$headerColor2: #000000;
+
+/*
+* ------------------------------------
+* Controls
+* ------------------------------------
+*/
+
+/* dark blue/grey button colour variables */
+$messageboxColor: #cccccc;
+
+$btnGreen: #86af08;
+$btnBlue: #088eaf;
+$btnRed: #eb462b;
+$btnGrey: #c3c2c1;
+
+/*
+* ------------------------------------
+* Colours
+* ------------------------------------
+*/
+
+$orange: #fb6b41;
+$cyan: #339194;
+$dark-blue: #36495b;
+
+$border-color: #24313e;
+
+/*
+* ------------------------------------
+* Fonts
+* ------------------------------------
+*/
+
+// $default-title-font: 'Proxima_Nova_Semibold', Calibri, Arial, sans-serif;
+$body-font: 'proxima-nova', Calibri, Arial, Helvetica, sans-serif;
+$header-font: 'freight-text-pro', "Times New Roman", Georgia, serif;
+$soft-font: 'proxima-nova-soft', Calibri, Arial, Helvetica, sans-serif;
+$regular-weight: 400;
+$semi-bold-weight: 600;
+$bold-weight: 700;
+$regular-font-style: normal;
+$body-font-size: 16px;
+$text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+$webkit-font-smoothing: antialiased;
+
+/*
+* ------------------------------------
+* Utilities
+* ------------------------------------
+*/
+
+$border-radius: 5px;
+$border-radius-inner: 4px;
+$widget-shadow: 0 1px 0px rgba(255, 255, 255, 0.09);
+

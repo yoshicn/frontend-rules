@@ -1,0 +1,76 @@
+@import "compass/css3";
+@import "../_variables";
+@import "../_mixins";
+
+.message-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: $body-width;
+
+	.message-box-wrapper {
+		margin-top: 25px;
+		background-color: $messageboxColor;
+		color: get-text-color($messageboxColor);
+		padding: 25px;
+
+		@include border-radius(6px);
+	}
+}
+
+%btn {
+	display: inline-block;
+	border: 1px solid #cccccc;
+	padding: 9px 15px;
+	font-size: 16px;
+
+	@include border-radius(6px); 
+}
+
+.btn {
+	@extend %btn;
+}
+
+.btn-green {
+	@extend %btn;
+	background-color: $btnGreen;
+	border-color: darken($btnGreen, 10%);
+	color: get-text-color($btnGreen);
+
+	&:hover {
+		background-color: darken($btnGreen, 20%);
+	}
+}
+
+.btn-red {
+	@extend %btn;
+	background-color: $btnRed;
+	border-color: darken($btnRed, 10%);
+	color: get-text-color($btnRed);
+
+	&:hover {
+		background-color: darken($btnRed, 20%);
+		color: get-text-color($btnRed);
+	}	
+}
+
+.btn-blue {
+	@extend %btn;
+	background-color: $btnBlue;
+	border-color: darken($btnBlue, 10%);
+	color: get-text-color($btnBlue);
+
+	&:hover {
+		background-color: darken($btnBlue, 20%);
+	}	
+}
+
+.btn-grey {
+	@extend %btn;
+	background-color: $btnGrey;
+	border-color: darken($btnGrey, 10%);
+	color: get-text-color($btnGrey);
+
+	&:hover {
+		background-color: darken($btnGrey, 20%);
+	}	
+}
