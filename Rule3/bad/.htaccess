@@ -1,0 +1,4 @@
+#Expire Header
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
+ExpiresDefault "access plus 0 hours"
+</FilesMatch>

@@ -1,0 +1,367 @@
+/* line 1, ../scss/body.scss */
+.button {
+  background-color: #ff0000;
+  color: #ff0000;
+}
+;@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*
+* ------------------------------------
+* General settings
+* ------------------------------------
+*/
+/* Used to fix min-width of the content. Currently using to show data safely on tablet.*/
+/*
+* ------------------------------------
+* Header styles
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Controls
+* ------------------------------------
+*/
+/* dark blue/grey button colour variables */
+/*
+* ------------------------------------
+* Colours
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Fonts
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Utilities
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* General settings
+* ------------------------------------
+*/
+/* Used to fix min-width of the content. Currently using to show data safely on tablet.*/
+/*
+* ------------------------------------
+* Header styles
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Controls
+* ------------------------------------
+*/
+/* dark blue/grey button colour variables */
+/*
+* ------------------------------------
+* Colours
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Fonts
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Utilities
+* ------------------------------------
+*/
+/*Eric Meyer's CSS reset*/
+/*http://www.cssreset.com/scripts/eric-meyer-reset-css/*/
+/* line 6, ../scss/_base.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/_base.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 6, ../scss/_base.scss */
+body {
+  line-height: 1;
+}
+
+/* line 6, ../scss/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 6, ../scss/_base.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 6, ../scss/_base.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 6, ../scss/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../scss/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 8, ../scss/_base.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/_base.scss */
+body, html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../scss/_base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 14, ../scss/_base.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 15, ../scss/_base.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 17, ../scss/_base.scss */
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  background: #fff;
+  font-weight: 100;
+  color: black;
+}
+
+/* line 24, ../scss/_base.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 28, ../scss/_base.scss */
+.mt10 {
+  margin-top: 10px;
+}
+
+/* line 32, ../scss/_base.scss */
+.mt25 {
+  margin-top: 25px;
+}
+
+/* line 36, ../scss/_base.scss */
+.mb25 {
+  margin-bottom: 25px;
+}
+
+/**
+ * Enables separating out of IE speceific css.
+ */
+/*
+* ------------------------------------
+* General settings
+* ------------------------------------
+*/
+/* Used to fix min-width of the content. Currently using to show data safely on tablet.*/
+/*
+* ------------------------------------
+* Header styles
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Controls
+* ------------------------------------
+*/
+/* dark blue/grey button colour variables */
+/*
+* ------------------------------------
+* Colours
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Fonts
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Utilities
+* ------------------------------------
+*/
+/**
+ * Enables separating out of IE speceific css.
+ */
+/* line 4, ../scss/components/header.scss */
+.header {
+  position: static;
+  color: white;
+  background-color: black;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, black, black);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, black, black);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, black, black);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, black, black);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #000000, #000000);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='black', EndColorStr='black');
+}
+/* line 10, ../scss/components/header.scss */
+.header .header-wrapper {
+  padding: 25px 0;
+}
+/* line 13, ../scss/components/header.scss */
+.header .header-wrapper h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* ------------------------------------
+* General settings
+* ------------------------------------
+*/
+/* Used to fix min-width of the content. Currently using to show data safely on tablet.*/
+/*
+* ------------------------------------
+* Header styles
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Controls
+* ------------------------------------
+*/
+/* dark blue/grey button colour variables */
+/*
+* ------------------------------------
+* Colours
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Fonts
+* ------------------------------------
+*/
+/*
+* ------------------------------------
+* Utilities
+* ------------------------------------
+*/
+/**
+ * Enables separating out of IE speceific css.
+ */
+/* line 5, ../scss/components/components.scss */
+.message-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* line 10, ../scss/components/components.scss */
+.message-box .message-box-wrapper {
+  margin-top: 25px;
+  background-color: #cccccc;
+  color: black;
+  padding: 25px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 20, ../scss/components/components.scss */
+.btn, .btn-green, .btn-red, .btn-blue, .btn-grey {
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 9px 15px;
+  font-size: 16px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 33, ../scss/components/components.scss */
+.btn-green {
+  background-color: #86af08;
+  border-color: #617e06;
+  color: white;
+}
+/* line 39, ../scss/components/components.scss */
+.btn-green:hover {
+  background-color: #3b4d04;
+}
+
+/* line 44, ../scss/components/components.scss */
+.btn-red {
+  background-color: #eb462b;
+  border-color: #cf2e14;
+  color: black;
+}
+/* line 50, ../scss/components/components.scss */
+.btn-red:hover {
+  background-color: #a1240f;
+  color: black;
+}
+
+/* line 56, ../scss/components/components.scss */
+.btn-blue {
+  background-color: #088eaf;
+  border-color: #06667e;
+  color: white;
+}
+/* line 62, ../scss/components/components.scss */
+.btn-blue:hover {
+  background-color: #043f4d;
+}
+
+/* line 67, ../scss/components/components.scss */
+.btn-grey {
+  background-color: #c3c2c1;
+  border-color: #aaa9a7;
+  color: black;
+}
+/* line 73, ../scss/components/components.scss */
+.btn-grey:hover {
+  background-color: #918f8d;
+}
+
+/* line 10, ../scss/main.scss */
+.body-width {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 15, ../scss/main.scss */
+.input {
+  -webkit-box-shadow: red, lime;
+  -moz-box-shadow: red, lime;
+  box-shadow: red, lime;
+}
