@@ -1,4 +1,6 @@
 #Expire Header
 <FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
-ExpiresDefault "access plus 2 hours"
+Header set Expires "access plus 12 hours"
+Header unset ETag
+FileETag None
 </FilesMatch>
